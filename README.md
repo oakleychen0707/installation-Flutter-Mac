@@ -20,6 +20,7 @@ export PATH="$PATH:/輸入你的 Flutter SDK 資料夾路徑/"
 ```
 
 ## 4. 驗證安裝
+使用以下命令檢查 Flutter 安裝版本：
 ```
 ./flutter/bin/flutter --version
 ```
@@ -32,6 +33,8 @@ flutter doctor
 
 ## 6. 常見問題
 如下圖，比較常遇到問題的，應該是 安裝 CocoaPods 的時候
+
+![CocoaPods.png](./CocoaPods.png)
 
 ### 安裝 CocoaPods
 
@@ -49,7 +52,11 @@ pod --version
 ```
 
 #### - 再次檢查是否安裝成功
-全部打勾就沒問題了！
 ```
 flutter doctor
 ```
+
+全部打勾就沒問題了！
+
+![Installation Finish](./installation%20finish.png)
+
