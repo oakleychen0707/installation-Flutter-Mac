@@ -1,7 +1,7 @@
 # installation-Flutter-Mac
 記錄如何將安裝 Flutter（Mac）
 
-# 安裝教學
+# 一、安裝教學
 
 ## 1. 安裝前提
 - 確保你已經安裝了 Xcode 和 Android Studio。
@@ -31,27 +31,25 @@ export PATH="$PATH:/輸入你的 Flutter SDK 資料夾路徑/"
 flutter doctor
 ```
 
-## 6. 常見問題
+# 二、 常見問題
 如下圖，比較常遇到問題的，應該是 安裝 CocoaPods 的時候
 
 ![CocoaPods.png](./CocoaPods.png)
 
-### 安裝 CocoaPods
+## 1. 安裝 CocoaPods
 
-#### - 使用 Homebrew 安裝 CocoaPods：
+使用 Homebrew 安裝 CocoaPods：
 ```
 brew install cocoapods
 ```
 
-#### - 確認是否安裝成功
-
-如果有看到版本號，就是安裝成功囉！
+確認是否安裝成功（如果有看到版本號，就是安裝成功囉！）
 
 ```
 pod --version
 ```
 
-#### - 再次檢查是否安裝成功
+# 三、最後檢查
 ```
 flutter doctor
 ```
