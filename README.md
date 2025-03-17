@@ -4,7 +4,7 @@
 # 一、安裝教學
 
 ## 1. 安裝前提
-- 確保你已經安裝了 Xcode 或 Android Studio。
+- 確保你已經安裝了 Xcode 與 Android Studio。
 - Android Studio 記得安裝 Plugins（Setting > Plugins）：Dart、Flutter
 
 ## 2. 安裝 Flutter SDK
