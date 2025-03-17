@@ -4,8 +4,8 @@
 # 一、安裝教學
 
 ## 1. 安裝前提
-- 確保你已經安裝了 Xcode 和 Android Studio。
-- 確保你的系統已經更新到最新版本。
+- 確保你已經安裝了 Xcode 或 Android Studio。
+- Android Studio 記得安裝 Plugins（Setting > Plugins）：Dart、Flutter
 
 ## 2. 安裝 Flutter SDK
 使用 `git clone` 來安裝 Flutter SDK：
